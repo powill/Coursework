@@ -23,8 +23,11 @@
   - Used pandas library to load data from *affairs2.csv* dataset into dataframe
   - Used seaborn library in order to generate heatmap of data to check for rows with missing values, and generate factor plots to compare the significance of attributes
   - Used sklearn library with train_test_split function in order to train a linear regression model using select attributes from dataset
-  - Used pandas library with one-hot encoding/get_dummies function in order to include attribute with categorical data ('Occupation') into training data of linear regression model
+  - Used pandas library with one-hot encoding/get_dummies function in order to convert categorical data ('Occupation') into numerical data and include in training set of linear regression model
   - Used sklearn library with classification_report and accuracy_score functions in order to generate performance metrics of the prediction models.
+
+- **DA_SVM_DecTrees_Affairs**
+  - Used pandas library in order to load **affair2.csv** dataset into dataframe, one-hot encoding/get_dummies function to convert categorical data into numeric data, 
   
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
