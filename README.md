@@ -24,6 +24,7 @@
   - Used seaborn library in order to generate heatmap of data to check for rows with missing values, and generate factor plots to compare the significance of attributes
   - Used sklearn library with train_test_split function in order to train a linear regression model using select attributes from dataset
   - Used pandas library with one-hot encoding/get_dummies function in order to include attribute with categorical data ('Occupation') into training data of linear regression model
+  - Used sklearn library with classification_report and accuracy_score functions in order to generate performance metrics of the prediction models.
   
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
