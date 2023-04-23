@@ -38,7 +38,7 @@
     - Used sklearn with export_graphviz in order to visualize decison trees.
     - Used sklearn with RandomForestClassifier in order to train prediction models using multiple decision trees.
   
-- **DA_LogisticRegressionDecTree_LendingClubLoan
+- **DA_LogisticRegressionDecTree_LendingClubLoan**
   - **Used pandas library in order to load data from *lendingclub_loan_data.csv* dataset into dataframe**
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
