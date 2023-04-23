@@ -1,5 +1,7 @@
 # Coursework
 
+- Included within this repository is a collection of assignments and projects which demonstrate learned tools and skills for programming and data analysis. 
+
 ## Data Analytics 
 ##### Professor Alex Pang - Queens College, City University of New York
 - **DA_CarCrashes_MPG**
