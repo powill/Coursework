@@ -30,7 +30,7 @@
     - Used sklearn library with classification_report and accuracy_score functions in order to generate performance metrics of the prediction models.
 
 - **DA_SVM_DecTrees_Affairs**
-  - Used pandas library in order to load **affair2.csv** dataset into dataframe
+  - **Used pandas library in order to load data from *affair2.csv* dataset into dataframe**
     - Applied lambda function to convert numbers with decimal values into integers (1 or 0) within attribute in order to create target value
     - Used pandas library with one-hot encoding/get_dummies function in order to convert categorical data into numeric data
     - Used sklearn library with train_test_split and svm in order to train prediction models using Support Vector Classification (SVC), comparing optiimal choices of 'kernel', 'C', and 'gamma' parameters.
@@ -38,6 +38,8 @@
     - Used sklearn with export_graphviz in order to visualize decison trees.
     - Used sklearn with RandomForestClassifier in order to train prediction models using multiple decision trees.
   
+- **DA_LogisticRegressionDecTree_LendingClubLoan
+  - **Used pandas library in order to load data from *lendingclub_loan_data.csv* dataset into dataframe**
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
 -
