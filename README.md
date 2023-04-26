@@ -52,7 +52,8 @@
 
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
--
+- **AI_LinearPolynomialRegression_Advertising**
+  - **Used 
 
 
 ## Physics for Computer Science
