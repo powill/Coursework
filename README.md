@@ -16,7 +16,7 @@
 
 - **DA_LinearLogisticRegression_HousingAffairs**
   - **Used pandas library to load data from *USA_housing.csv* dataset into dataframe**
-    - Used seaborn library to create pairplot in order to assess relationship between attributes using scatterplots
+    - Used seaborn library to create pairplot in order to assess relationship between attributes using scatterplots and histograms
     - Used pandas library with correlation function to check which attributes have the strongest affect on housing prices
     - Used sklearn library in order to generate a linear regression model fit with values from attributes sharing the highest correlation (*Income* and *Price*)
     - Used matplotlib pyplot library in order to plot predicted values of linear regression as a red line against scatterplot of actual data values
@@ -53,7 +53,11 @@
 ## Artificial Intelligence
 ##### Professor Liang Zhao - Lehman College, City University of New York
 - **AI_LinearPolynomialRegression_Advertising**
-  - **Used 
-
+  - **Used pandas library in order to load data from *advertising.csv* dataset into dataframe**
+    - Used pandas library with histogram function in order to plot each attribute within the dataframe onto a histogram and visualize the data distribution.
+    - Used seaborn library to create pairplot in order to assess relationship between attributes with scatter plots and histograms.
+    - Used matplotlib library to create a scatterplot, in which the advertising budget belonging to TV, radio, and newspaper were plot against the generated sales.
+    - Used sklearn library with train_test_split and LinearRegression functions in order to train a multilinear linear regression model using advertising budget of 3 input variables (TV, radio, newspaper) in order to make predictions on the sales generated, and compared the predicted values with the actual sales figures for each iteration of the test set.
+    - Used sklearn library with PolynomialFeatures and mean_squared_error in order to train polynomial features models using different degree parameters (degree=2 and degree=10), and comparing the mean squared error (MSE)
 
 ## Physics for Computer Science
