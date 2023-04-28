@@ -59,5 +59,7 @@
     - Used matplotlib library to create a scatterplot, in which the advertising budget belonging to TV, radio, and newspaper were plot against the generated sales.
     - Used sklearn library with train_test_split and LinearRegression functions in order to train a multilinear linear regression model using advertising budget of 3 input variables (TV, radio, newspaper) in order to make predictions on the sales generated, and compared the predicted values with the actual sales figures for each iteration of the test set.
     - Used sklearn library with PolynomialFeatures and mean_squared_error in order to train polynomial features models using different degree parameters (degree=2 and degree=10), and comparing the mean squared error (MSE)
-
+- **AI_DecTreeRandomForest_Titanic**
+  - **Used pandas library in order to load data from *titanic.csv* dataset into dataframe** 
+    - 
 ## Physics for Computer Science
