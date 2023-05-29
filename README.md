@@ -62,5 +62,6 @@
 
 - **AI_DecTreeRandomForest_Titanic**
   - **Used pandas library in order to load data from *titanic.csv* dataset into dataframe** 
+    - Used sklearn library with train_test_split, DecisionTreeClassifier, and plot_tree functions in order to train and visualize prediction models using decision trees, comparing optimal choices for max_depth and identify possible contributing factors toward survival. 
      
 ## Physics for Computer Science
