@@ -64,4 +64,11 @@
   - **Used pandas library in order to load data from *titanic.csv* dataset into dataframe** 
     - Used sklearn library with train_test_split, DecisionTreeClassifier, and plot_tree functions in order to train and visualize prediction models using decision trees, comparing optimal choices for max_depth and identify possible contributing factors toward survival. 
      
+- **AI_DecTreeRandomForest_Titanic**
+  - Used tensorflow library in order to import fashion_mnist dataset
+    - Scaled the values of the train and test images by dividing each by 255.0
+    - Used tensorflow library in order to build a convolutional neural netowrk model with three layers, the first which allows for flattening input of 2-dimensional arrray of 28x28 pixel images from training set into a 1-dimensional arrray, the second which is a dense layer of 128 nodes, and the third which allows for 10 units of output depending on the classification. The model was compiled using the adam optimizer, and fit using the training images, training labels, and evaluated using 10 epoch phases over the training set, displaying the accuracy with each iteration. 
+    - Used matplotlib library in order to graph accurracy vs. epoch iterations on a line graph.
+    - Used sklearn library in order to print a confusion matrix in order to demonstrate accuracy of model predictions across the 10 classes.
+
 ## Physics for Computer Science
