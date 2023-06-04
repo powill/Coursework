@@ -79,3 +79,9 @@
     -  Used pandas library to create dataframe including the performance metrics of each model (accuracy, precision, recall, f1-score) in order to assess which model best predicted which customers would not churn from service. 
 
 ## Physics for Computer Science
+#### Professor Larry Liebovitch - Queens College, City University of New York
+- **PCS_BlochSphereQiskit_Project**
+  - **Used qiskit library in order to implement functions to demonstrate quantum circuits**
+    -  Used plot_bloch_vector function in order to plot vectors pointing in the X, Y, and Z directions.
+    -  Used QuantumCircuit, Statevector, plot_bloch_multivector, and plot_state_qsphere functions in order to specify and visualize directions of force vectors using bloch spheres.
+    -  
