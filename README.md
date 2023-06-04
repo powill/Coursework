@@ -73,6 +73,9 @@
 
 - **AI_Classification_TelcoChurn**
   - **Used pandas library in order to load data from *WA_Fn-UseC_-Telco-Customer-Churn.csv* dataset into dataframe** 
-    -  
+    -  Used seaborn library in order to assess relationship between attributes using scatterplots and histograms, and which have an an effect on churn rate.
+    -  Used pandas library with one-hot encoding/get_dummies function in order to convert categorical data into numeric data
+    -  Used sklearn library with LogisticRegression, svm, KNeighborsClassifier, DecisionTreeClassifier, and RandomForestClassifier functions in order to generate and compare the performance metrics of prediction models with select hyperparameters: logistic regression (testing cross validation), support vector machines (using kernel='linear and kernel='rbf'), k nearest neighbors (using n_neighbors=1, n_neighbors=5, and n_neighbors=25), decision tree classifiers (using max_depth=2, max_depth=4, and max_depth=5), and random forest classifiers (using max_depth=2, max_depth=5, and max_depth=10)
+    -  Used pandas library to create dataframe including the performance metrics of each model (accuracy, precision, recall, f1-score) in order to assess which model best predicted which customers would not churn from service. 
 
 ## Physics for Computer Science
