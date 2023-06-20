@@ -84,4 +84,8 @@
   - **Used qiskit library in order to implement functions to demonstrate quantum circuits**
     -  Used plot_bloch_vector function in order to plot vectors pointing in the X, Y, and Z directions.
     -  Used QuantumCircuit, Statevector, plot_bloch_multivector, and plot_state_qsphere functions in order to specify and visualize directions of force vectors using bloch spheres.
-    -  
+    -  Used DensityMatrix and plot_state_city functions in order to visualize quantum circuit state with 3-dimensional bar graphs.
+    -  Used plot_bloch_multivector and plot_state_qsphere functions in order to visualize vector directions after applying HGate and ZGate.
+    -  Used qasm_simulator and plot_histogram function in order to demonstrate probability of vector functions in two directions.
+    -  Applied HGate, IGate, and CXGate with not function in order to demonstrate entanglement of vector states and visualized using plot_state_qsphere, plot_state_paulivec, and plot_histogram functions.
+    -  Used transpile function in order to simulate quantum computer  
