@@ -10,7 +10,7 @@
     - Used seaborn library in order to assess for outliers using scatterplots and boxplots
     - Used pandasql library in order to query and calculate statistics (mean, standard deviation, skew, kurtosis) from dataset using both SQL and pandas functions
       <picture>
-        <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_CarCrashes_MPG/DA_CarCrashes_MPG_SQL.JPG">
+        <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_CarCrashes_MPG/DA_CarCrashes_MPG_sql.JPG">
       </picture>
       <picture>
         <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_CarCrashes_MPG/DA_CarCrashes_MPG_pandas.JPG">
@@ -29,6 +29,9 @@
     - Used pandas library with correlation function to check which attributes have the strongest affect on housing prices
     - Used sklearn library in order to generate a linear regression model fit with values from attributes sharing the highest correlation (*Income* and *Price*)
     - Used matplotlib pyplot library in order to plot predicted values of linear regression as a red line against scatterplot of actual data values
+      <picture>
+        <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_LinearLogisticRegression_HousingAffairs/DA_LinearLogisticRegression_HousingAffairs_scatter1.JPG">
+      </picture>
     - Used sklearn library with train_test_split function in order to train a new linear regression model, and test its ability to make predicitons on 20% of the training data from the previous attributes.
     - Used k-fold cross validation in order to test skill of the models.
   - **Used pandas library to load data from *affairs2.csv* dataset into dataframe**
@@ -45,12 +48,26 @@
     - Used sklearn library with train_test_split and svm in order to train prediction models using Support Vector Classification (SVC), comparing optiimal choices of 'kernel', 'C', and 'gamma' parameters.
     - Used sklearn library with DecisionTreeClassifier in order to train prediction models using decision trees, comparing optimal choices for max_depth and criterion parameters. 
     - Used sklearn with export_graphviz in order to visualize decison trees.
+      
+        <picture>
+          <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_SVMDecTrees_Affairs/DA_SVMDecTrees_Affairs_model9.JPG" width="40%">
+        </picture>
+        <picture>
+          <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_SVMDecTrees_Affairs/DA_SVMDecTrees_Affairs_model9_plt.JPG" width="55%">
+        </picture>
     - Used sklearn with RandomForestClassifier in order to train prediction models using multiple decision trees.
   
 - **DA_LogisticRegressionDecTree_LendingClubLoan**
   - **Used pandas library in order to load data from *lendingclub_loan_data.csv* dataset into dataframe**
     - Found and removed missing values from dataset
     - Used seaborn library with boxplots and scatter plots in order to remove outliers
+
+      <picture>
+          <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_LogisticRegressionDecTree_LendingClubLoan/DA_LogisticRegressionDecTree_LendingClubLoan_outlier1.JPG" width="55%">
+      </picture>
+      <picture>
+          <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_LogisticRegressionDecTree_LendingClubLoan/DA_LogisticRegressionDecTree_LendingClubLoan_outlier2.JPG" width="35%">
+      </picture>  
     - Used pandas library with correlation function in order to assess which attributes have the strongest relationship
     - Used sklearn with StandardScaler and MinMaxScaler in order to normaliize data belonging to select attributes with negative values into a '0 - 1' scale
     - Used pandas library with one-hot encoding/get_dummies function in order to convert categorical data into numeric data
