@@ -9,10 +9,19 @@
     - Checked for and removed null values
     - Used seaborn library in order to assess for outliers using scatterplots and boxplots
     - Used pandasql library in order to query and calculate statistics (mean, standard deviation, skew, kurtosis) from dataset using both SQL and pandas functions
+      <picture>
+        <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_CarCrashes_MPG/DA_CarCrashes_MPG_SQL.JPG">
+      </picture>
+      <picture>
+        <img src="https://github.com/powongit/Coursework/blob/main/Data%20Analytics/DA_CarCrashes_MPG/DA_CarCrashes_MPG_pandas.JPG">
+      </picture>
     - Used seaborn library in order to check accident distribution by region by plotting histograms
     - Used correlation function to check which attributes have the strongest affect on causing accidents
   - **Used pandas library in order to load data from *mpg3.csv* dataset into dataframe**
     - Checked for missing values, imputed mean of attribute in place of missing values
+
+
+
 
 - **DA_LinearLogisticRegression_HousingAffairs**
   - **Used pandas library to load data from *USA_housing.csv* dataset into dataframe**
